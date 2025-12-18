@@ -83,14 +83,13 @@ def edit_contacts():
 while True:
 
     print("------------MY PHONEBOOK-------------")
-    print("---------------MENU---------------")
     print("------------ADD CONTACT-----------")
     print("-----------DELETE CONTACT----------")
     print("----------SHOW ALL CONTACT--------")
     print("----------SEARCH CONTACTS----------")
     print("----------EDIT CONTACTS------------")
     print("\n('q' to quit)")
-    print("(shortcut keys 'a' for add contact, 'd' for delete contact, 's' for show all contacts, 'se' for search contact")
+    print("(shortcut keys 'a' for add contact, 'd' for delete contact, 's' for show all contacts, 'se' for search contact, 'e' for edit contact")
         # the shortcut keys is for testing purposes only.
 
 
@@ -113,4 +112,5 @@ while True:
         search_contact()
 
     elif menu == 'edit contact' or menu == 'e':
+
         edit_contacts()
